@@ -1,4 +1,4 @@
-# acm
+# berrybrew
 
 [![Build Status](https://travis-ci.org/mozilla/acm.svg)](https://travis-ci.org/mozilla/acm)
 A Video Editor Powered by the Web
