@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/mozilla/popcorn-editor.svg)](https://travis-ci.org/mozilla/popcorn-editor)
+# acm
+
+[![Build Status](https://travis-ci.org/mozilla/acm.svg)](https://travis-ci.org/mozilla/acm)
 A Video Editor Powered by the Web
 =================================
 
@@ -18,7 +20,7 @@ Installation
 
 Popcorn Editor can be installed through bower
 
-```$ bower install popcorn-editor```
+```$ bower install acm```
 
 Creating a new Popcorn Editor instance is as easy as:
 
@@ -127,7 +129,7 @@ $ gulp
 CDN Hosting
 ===========
 
-All successful [Travis builds](https://travis-ci.org/mozilla/popcorn-editor) 
-[trigger a push to S3](https://github.com/mozilla/popcorn-editor/commit/558648a11373b811ecb0be9deca52240241a6e21) to a bucket called `org.mozilla.air.popcorneditor`. Thus every file in this repository is accessible via on S3 with the prefix `https://s3.amazonaws.com/org.mozilla.air.popcorneditor/`. 
+All successful [Travis builds](https://travis-ci.org/mozilla/acm) 
+[trigger a push to S3](https://github.com/mozilla/acm/commit/558648a11373b811ecb0be9deca52240241a6e21) to a bucket called `org.mozilla.air.popcorneditor`. Thus every file in this repository is accessible via on S3 with the prefix `https://s3.amazonaws.com/org.mozilla.air.popcorneditor/`. 
 
 Additionally, an AWS CloudFront distribution caches this S3 bucket. Equally, every file in this repository is accessible via t CloudFont with the prefix `https://d2edlhmcxlovf.cloudfront.net/`.
